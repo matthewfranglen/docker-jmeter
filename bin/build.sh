@@ -17,3 +17,9 @@ cd "${DOCKER_FOLDER}"
 
     docker build --tag matthewfranglen/jmeter-editor . || exit 1
 )
+
+(
+    cd client
+
+    docker build --tag matthewfranglen/jmeter-client . || exit 1
+)
