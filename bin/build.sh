@@ -9,11 +9,11 @@ cd "${DOCKER_FOLDER}"
 (
     cd base
 
-    docker build --tag jmeter/base . || exit 1
+    docker build --tag matthewfranglen/jmeter-base . || exit 1
 )
 
 (
     cd editor
 
-    docker build --tag jmeter/editor . || exit 1
+    docker build --tag matthewfranglen/jmeter-editor . || exit 1
 )

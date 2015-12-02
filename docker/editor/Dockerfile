@@ -1,3 +1,3 @@
-FROM jmeter-base
+FROM matthewfranglen/jmeter-base
 
 ENTRYPOINT [ "/jmeter/bin/jmeter" ]
