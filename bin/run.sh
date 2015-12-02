@@ -10,5 +10,5 @@ BIN_FOLDER=`dirname "${COMMAND}"`
         --volume "${PLANS_FOLDER}:/plans"     \
         --volume "${REPORTS_FOLDER}:/reports" \
         --name jmeter-standalone-client       \
-        matthewfranglen/jmeter-client -n -t /plans/plan.jmx -l /reports/results.jtl -j /reports/jmeter.log
+        matthewfranglen/jmeter-client -n -l /reports/results.jtl -j /reports/jmeter.log -t /plans/${1:-plan.jmx}
 )
