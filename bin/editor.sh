@@ -13,5 +13,5 @@ BIN_FOLDER=`dirname "${COMMAND}"`
         --volume /tmp/.X11-unix:/tmp/.X11-unix \
         --volume "${PLANS_FOLDER}:/plans"      \
         --name jmeter-editor                   \
-        matthewfranglen/jmeter-editor
+        matthewfranglen/jmeter-editor -t /plans/plan.jmx
 )
