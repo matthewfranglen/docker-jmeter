@@ -1,5 +1,6 @@
 
 ROOT_FOLDER=`dirname "${BIN_FOLDER}"`
 DOCKER_FOLDER="${ROOT_FOLDER}/docker"
+PLANS_FOLDER="${ROOT_FOLDER}/plans"
 
 # vim: set ai et sw=4 syntax=sh :
